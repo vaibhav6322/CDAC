@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: larger;
+    background: linear-gradient(#9B7EBD,#3B1E54);
+}
+
+
+.image1{
+    height: 75px;
+    width: 75px;
+    margin-left: 0px;
+    margin-right: 50%;
+}
+header {
+    padding: 1em;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    height: 20px;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.navbar a:hover {
+    color: #f0a500;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#signup form ,#signin form{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.contact {
+   max-width: 400px;
+   margin: 20px auto;
+   padding: 20px;
+  border-radius: 5px;
+}
+.contact-form{
+    margin-bottom: 15px;
+}
+.container{
+    display: flex; 
+    flex-direction: row; 
+    padding-left: 20px;
+
+}
+.dish{
+    height: 250px;
+    width: 200px;
+    padding-left: 25px;
+}
+button:hover {
+    background-color: #71b300;
+}
+input{
+    width: 400px;
+    padding: 10px;
+}
+textarea{
+    width: 400px;
+}
+/* #home , #about {
+    background-image: url('../assign2/back1.png');
+   
+    background-size: contain;
+} */
